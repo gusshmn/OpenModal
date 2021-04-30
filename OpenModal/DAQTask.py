@@ -30,7 +30,7 @@ import numpy as np
 import time
 from math import floor, acos
 # from scipy.signal import chirp
-
+import ctypes 
 
 def get_daq_tasks():
     """ Returns the tasks defined in the NI-DAQmx.
